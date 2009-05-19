@@ -36,16 +36,17 @@ public class SQLiteTest extends Activity {
 				SQLiteDatabase db = SQLiteDatabase.openDatabase("/data/anr/skk_dict.db", null,
 						SQLiteDatabase.NO_LOCALIZED_COLLATORS | SQLiteDatabase.OPEN_READONLY);
 				Cursor cr = db.query("dictionary", new String[] {"key", "value"},
-						"key = ?", new String[] { params[0] },
+						"key like \'a%\'", null, // new String[] { params[0] },
 						null, null, null);
 				if (cr.getCount() > 0) {
 					cr.moveToFirst();
 					int i = cr.getColumnIndex("value");
 					String cs = cr.getString(i);
+					i = cr.getCount();
 					cr.close();
 					db.close();
 					Debug.stopMethodTracing();
-					Log.d("SQLiteTest", cs);
+					Log.d("SQLiteTest", i + " records: " + cs);
 					return cs;
 				}
 				cr.close();

@@ -1,0 +1,500 @@
+*version
+1
+data-file-overflow=false
+clock=thread-cpu
+elapsed-time-usec=10176070
+num-method-calls=1207
+clock-call-overhead-nsec=3207
+vm=dalvik
+*threads
+3	main
+15	AsyncTask #1
+13	Binder Thread #2
+11	Binder Thread #1
+9	JDWP
+7	Signal Catcher
+5	HeapWorker
+*methods
+0x410a8980	android/database/sqlite/SQLiteClosable	acquireReference	()V	SQLiteClosable.java	29
+0x410a8a28	android/database/sqlite/SQLiteClosable	releaseReference	()V	SQLiteClosable.java	39
+0x410a8940	android/database/sqlite/SQLiteClosable	<init>	()V	SQLiteClosable.java	22
+0x41114380	android/database/AbstractCursor	checkPosition	()V	AbstractCursor.java	579
+0x411143b8	android/database/AbstractCursor	close	()V	AbstractCursor.java	106
+0x411144d0	android/database/AbstractCursor	deactivateInternal	()V	AbstractCursor.java	85
+0x41114578	android/database/AbstractCursor	finalize	()V	AbstractCursor.java	586
+0x41114ab8	android/database/AbstractCursor	isFieldUpdated	(I)Z	AbstractCursor.java	548
+0x41114bd0	android/database/AbstractCursor	moveToFirst	()Z	AbstractCursor.java	248
+0x41114c78	android/database/AbstractCursor	moveToPosition	(I)Z	AbstractCursor.java	-1
+0x41114308	android/database/AbstractCursor	<init>	()V	AbstractCursor.java	-1
+0x4107ae60	java/util/WeakHashMap	entrySet	()Ljava/util/Set;	WeakHashMap.java	301
+0x4107af78	java/util/WeakHashMap	poll	()V	WeakHashMap.java	564
+0x4107afb0	java/util/WeakHashMap	put	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	WeakHashMap.java	-1
+0x4107b020	java/util/WeakHashMap	remove	(Ljava/lang/Object;)Ljava/lang/Object;	WeakHashMap.java	682
+0x4107abf0	java/util/WeakHashMap	<init>	()V	WeakHashMap.java	190
+0x4107ac28	java/util/WeakHashMap	<init>	(I)V	WeakHashMap.java	203
+0x4107acd0	java/util/WeakHashMap	computeMaxSize	()V	WeakHashMap.java	273
+0x4107ad08	java/util/WeakHashMap	newEntryArray	(I)[Ljava/util/WeakHashMap$Entry;	WeakHashMap.java	53
+0x41118cd0	android/database/sqlite/SQLiteDirectCursorDriver	cursorClosed	()V	SQLiteDirectCursorDriver.java	75
+0x41118d78	android/database/sqlite/SQLiteDirectCursorDriver	query	(Landroid/database/sqlite/SQLiteDatabase$CursorFactory;[Ljava/lang/String;)Landroid/database/Cursor;	SQLiteDirectCursorDriver.java	-1
+0x41118c90	android/database/sqlite/SQLiteDirectCursorDriver	<init>	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)V	SQLiteDirectCursorDriver.java	-1
+0x410aaa90	android/database/sqlite/SQLiteQuery	close	()V	SQLiteQuery.java	141
+0x410aaac8	android/database/sqlite/SQLiteQuery	columnCountLocked	()I	SQLiteQuery.java	110
+0x410aab00	android/database/sqlite/SQLiteQuery	columnNameLocked	(I)Ljava/lang/String;	SQLiteQuery.java	126
+0x410aab38	android/database/sqlite/SQLiteQuery	fillWindow	(Landroid/database/CursorWindow;II)I	SQLiteQuery.java	64
+0x410aa8c8	android/database/sqlite/SQLiteQuery	<init>	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;I[Ljava/lang/String;)V	SQLiteQuery.java	49
+0x410aa900	android/database/sqlite/SQLiteQuery	native_column_count	()I	SQLiteQuery.java	-2
+0x410aa938	android/database/sqlite/SQLiteQuery	native_column_name	(I)Ljava/lang/String;	SQLiteQuery.java	-2
+0x410aa970	android/database/sqlite/SQLiteQuery	native_fill_window	(Landroid/database/CursorWindow;IIII)I	SQLiteQuery.java	-2
+0x4107eba0	java/util/AbstractCollection	<init>	()V	AbstractCollection.java	40
+0x41128718	java/lang/Runtime	gc	()V	Runtime.java	-2
+0x411283c8	java/lang/Runtime	getRuntime	()Ljava/lang/Runtime;	Runtime.java	400
+0x410aa500	android/database/sqlite/SQLiteProgram	close	()V	SQLiteProgram.java	219
+0x410aa538	android/database/sqlite/SQLiteProgram	compile	(Ljava/lang/String;Z)V	SQLiteProgram.java	104
+0x410aa6f8	android/database/sqlite/SQLiteProgram	native_compile	(Ljava/lang/String;)V	SQLiteProgram.java	-2
+0x410aa730	android/database/sqlite/SQLiteProgram	native_finalize	()V	SQLiteProgram.java	-2
+0x410aa768	android/database/sqlite/SQLiteProgram	onAllReferencesReleased	()V	SQLiteProgram.java	66
+0x410aa338	android/database/sqlite/SQLiteProgram	<init>	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)V	SQLiteProgram.java	-1
+0x410c6428	com/ibm/icu4jni/charset/CharsetEncoderICU	finalize	()V	CharsetEncoderICU.java	316
+0x41131d98	java/util/Locale	toString	()Ljava/lang/String;	Locale.java	-1
+0x411318c0	java/util/Locale	getDefault	()Ljava/util/Locale;	Locale.java	500
+0x4120e580	java/util/HashMap$2$1	get	(Ljava/util/MapEntry;)Ljava/lang/Object;	HashMap.java	765
+0x4120e540	java/util/HashMap$2$1	<init>	(Ljava/util/HashMap$2;)V	HashMap.java	764
+0x412184d0	java/util/concurrent/locks/ReentrantLock	lock	()V	ReentrantLock.java	252
+0x41218620	java/util/concurrent/locks/ReentrantLock	unlock	()V	ReentrantLock.java	427
+0x412181f0	java/util/concurrent/locks/ReentrantLock	<init>	(Z)V	ReentrantLock.java	232
+0x4108b768	com/android/internal/os/BinderInternal$GcWatcher	finalize	()V	BinderInternal.java	46
+0x4108b728	com/android/internal/os/BinderInternal$GcWatcher	<init>	()V	BinderInternal.java	43
+0x41116d78	android/database/Observable	unregisterAll	()V	Observable.java	74
+0x41116d00	android/database/Observable	<init>	()V	Observable.java	24
+0x410e0b10	sun/misc/Unsafe	compareAndSwapInt	(Ljava/lang/Object;JII)Z	Unsafe.java	-2
+0x41116bc0	android/database/ContentObservable	<init>	()V	ContentObservable.java	23
+0x41066258	java/util/HashMap	createHashedEntry	(Ljava/lang/Object;II)Ljava/util/HashMap$Entry;	HashMap.java	604
+0x410662c8	java/util/HashMap	findNonNullKeyEntry	(Ljava/lang/Object;II)Ljava/util/HashMap$Entry;	HashMap.java	456
+0x41066338	java/util/HashMap	get	(Ljava/lang/Object;)Ljava/lang/Object;	HashMap.java	442
+0x41066418	java/util/HashMap	newElementArray	(I)[Ljava/util/HashMap$Entry;	HashMap.java	233
+0x41066450	java/util/HashMap	put	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	HashMap.java	563
+0x410665a0	java/util/HashMap	size	()I	HashMap.java	716
+0x410665d8	java/util/HashMap	values	()Ljava/util/Collection;	HashMap.java	743
+0x41065f40	java/util/HashMap	<init>	()V	HashMap.java	242
+0x41065f78	java/util/HashMap	<init>	(I)V	HashMap.java	-1
+0x41065fb0	java/util/HashMap	<init>	(IF)V	HashMap.java	-1
+0x41066020	java/util/HashMap	computeMaxSize	()V	HashMap.java	357
+0x41066090	java/util/HashMap	putImpl	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	HashMap.java	-1
+0x4104d6b0	java/lang/VMThread	currentThread	()Ljava/lang/Thread;	VMThread.java	-2
+0x4107d700	java/lang/AbstractStringBuilder	append0	(C)V	AbstractStringBuilder.java	152
+0x4107d770	java/lang/AbstractStringBuilder	append0	(Ljava/lang/String;)V	AbstractStringBuilder.java	-1
+0x4107dee0	java/lang/AbstractStringBuilder	toString	()Ljava/lang/String;	AbstractStringBuilder.java	-1
+0x4107d5e0	java/lang/AbstractStringBuilder	<init>	()V	AbstractStringBuilder.java	77
+0x4107d618	java/lang/AbstractStringBuilder	<init>	(I)V	AbstractStringBuilder.java	81
+0x4107d688	java/lang/AbstractStringBuilder	enlargeBuffer	(I)V	AbstractStringBuilder.java	-1
+0x41078d48	java/io/FileOutputStream	close	()V	FileOutputStream.java	182
+0x41078d80	java/io/FileOutputStream	finalize	()V	FileOutputStream.java	214
+0x4104eb38	java/lang/Exception	<init>	(Ljava/lang/String;)V	Exception.java	52
+0x4108b900	android/os/BinderProxy	finalize	()V	Binder.java	334
+0x4108b850	android/os/BinderProxy	destroy	()V	Binder.java	-2
+0x4107eaa8	java/util/AbstractSet	<init>	()V	AbstractSet.java	36
+0x41118690	android/database/sqlite/SQLiteCursor	close	()V	SQLiteCursor.java	505
+0x411187a8	android/database/sqlite/SQLiteCursor	getColumnIndex	(Ljava/lang/String;)I	SQLiteCursor.java	-1
+0x41118818	android/database/sqlite/SQLiteCursor	getCount	()I	SQLiteCursor.java	268
+0x41118888	android/database/sqlite/SQLiteCursor	onMove	(II)Z	SQLiteCursor.java	258
+0x41118340	android/database/sqlite/SQLiteCursor	<init>	(Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)V	SQLiteCursor.java	-1
+0x411185a8	android/database/sqlite/SQLiteCursor	deactivateCommon	()V	SQLiteCursor.java	488
+0x411185e0	android/database/sqlite/SQLiteCursor	fillWindow	(I)V	SQLiteCursor.java	275
+0x41251e80	java/util/WeakHashMap$HashIterator	hasNext	()Z	WeakHashMap.java	-1
+0x41251e40	java/util/WeakHashMap$HashIterator	<init>	(Ljava/util/WeakHashMap;Ljava/util/WeakHashMap$Entry$Type;)V	WeakHashMap.java	124
+0x410d0f00	java/util/AbstractList$SimpleListIterator	hasNext	()Z	AbstractList.java	53
+0x410d0ec0	java/util/AbstractList$SimpleListIterator	<init>	(Ljava/util/AbstractList;)V	AbstractList.java	-1
+0x41251c50	java/util/WeakHashMap$1	iterator	()Ljava/util/Iterator;	WeakHashMap.java	340
+0x41251ba0	java/util/WeakHashMap$1	<init>	(Ljava/util/WeakHashMap;)V	WeakHashMap.java	339
+0x410c7088	com/ibm/icu4jni/charset/CharsetDecoderICU	finalize	()V	CharsetDecoderICU.java	273
+0x4108b5d8	com/android/internal/os/BinderInternal	forceGc	(Ljava/lang/String;)V	BinderInternal.java	82
+0x4108b680	com/android/internal/os/BinderInternal	handleGc	()V	BinderInternal.java	-2
+0x4104ea50	java/lang/RuntimeException	<init>	(Ljava/lang/String;)V	RuntimeException.java	52
+0x410e68c8	android/app/Application	onLowMemory	()V	Application.java	63
+0x410d5128	android/app/Activity	onLowMemory	()V	Activity.java	1442
+0x4108a9f0	android/os/Process	myUid	()I	Process.java	-2
+0x410aca68	android/os/SystemProperties	get	(Ljava/lang/String;)Ljava/lang/String;	SystemProperties.java	41
+0x410acb80	android/os/SystemProperties	native_get	(Ljava/lang/String;)Ljava/lang/String;	SystemProperties.java	-2
+0x41067070	java/util/MapEntry	<init>	(Ljava/lang/Object;Ljava/lang/Object;)V	MapEntry.java	37
+0x410e1ac8	android/app/ActivityThread$ApplicationThread	scheduleLowMemory	()V	ActivityThread.java	1438
+0x41104658	android/content/ContentResolver$CursorWrapperInner	finalize	()V	ContentResolver.java	746
+0x412001d0	java/lang/IllegalStateException	<init>	(Ljava/lang/String;)V	IllegalStateException.java	49
+0x4116ec48	android/text/TextUtils	isEmpty	(Ljava/lang/CharSequence;)Z	TextUtils.java	428
+0x41084180	android/util/EventLog	writeEvent	(II)I	EventLog.java	-2
+0x41084228	android/util/EventLog	writeEvent	(ILjava/lang/String;)I	EventLog.java	-2
+0x4115a688	android/os/Message	clearForRecycle	()V	Message.java	-1
+0x4115a848	android/os/Message	recycle	()V	Message.java	223
+0x4115a488	android/os/Message	obtain	()Landroid/os/Message;	Message.java	82
+0x410c08b8	java/util/ArrayList	add	(Ljava/lang/Object;)Z	ArrayList.java	-1
+0x410c0960	java/util/ArrayList	clear	()V	ArrayList.java	274
+0x410c0a40	java/util/ArrayList	get	(I)Ljava/lang/Object;	ArrayList.java	349
+0x410c0c00	java/util/ArrayList	size	()I	ArrayList.java	616
+0x410c0680	java/util/ArrayList	<init>	()V	ArrayList.java	57
+0x410c06b8	java/util/ArrayList	<init>	(I)V	ArrayList.java	68
+0x410c0728	java/util/ArrayList	growAtEnd	(I)V	ArrayList.java	-1
+0x410c07d0	java/util/ArrayList	newElementArray	(I)[Ljava/lang/Object;	ArrayList.java	96
+0x411155b8	android/database/AbstractWindowedCursor	checkPosition	()V	AbstractWindowedCursor.java	172
+0x41115778	android/database/AbstractWindowedCursor	getString	(I)Ljava/lang/String;	AbstractWindowedCursor.java	41
+0x41115578	android/database/AbstractWindowedCursor	<init>	()V	AbstractWindowedCursor.java	22
+0x411125b8	android/content/res/XmlBlock$Parser	close	()V	XmlBlock.java	443
+0x41112628	android/content/res/XmlBlock$Parser	finalize	()V	XmlBlock.java	453
+0x41052478	dalvik/system/VMDebug	startClassPrep	()V	VMDebug.java	271
+0x410524e8	dalvik/system/VMDebug	startGC	()V	VMDebug.java	264
+0x41052670	dalvik/system/VMDebug	stopMethodTracing	()V	VMDebug.java	-2
+0x41097c58	android/os/Handler	dispatchMessage	(Landroid/os/Message;)V	Handler.java	91
+0x410981d0	android/os/Handler	sendMessage	(Landroid/os/Message;)Z	Handler.java	367
+0x41098240	android/os/Handler	sendMessageAtTime	(Landroid/os/Message;J)Z	Handler.java	453
+0x41098278	android/os/Handler	sendMessageDelayed	(Landroid/os/Message;J)Z	Handler.java	427
+0x4104e738	java/lang/Throwable	fillInStackTrace	()Ljava/lang/Throwable;	Throwable.java	138
+0x4104e538	java/lang/Throwable	<init>	()V	Throwable.java	79
+0x4104e570	java/lang/Throwable	<init>	(Ljava/lang/String;)V	Throwable.java	92
+0x4104e688	java/lang/Throwable	nativeFillInStackTrace	()Ljava/lang/Object;	Throwable.java	-2
+0x411179a0	android/database/DataSetObservable	notifyInvalidated	()V	DataSetObservable.java	41
+0x41117928	android/database/DataSetObservable	<init>	()V	DataSetObservable.java	23
+0x410c0f08	java/util/AbstractList	iterator	()Ljava/util/Iterator;	AbstractList.java	583
+0x410c0d08	java/util/AbstractList	<init>	()V	AbstractList.java	381
+0x410dfee8	java/util/regex/Pattern	finalize	()V	Pattern.java	460
+0x4107ced0	java/lang/StringBuilder	append	(C)Ljava/lang/StringBuilder;	StringBuilder.java	126
+0x4107d090	java/lang/StringBuilder	append	(Ljava/lang/String;)Ljava/lang/StringBuilder;	StringBuilder.java	224
+0x4107d560	java/lang/StringBuilder	toString	()Ljava/lang/String;	StringBuilder.java	692
+0x4107ccd0	java/lang/StringBuilder	<init>	()V	StringBuilder.java	55
+0x4107cd08	java/lang/StringBuilder	<init>	(I)V	StringBuilder.java	69
+0x41251760	android/database/sqlite/SQLiteQueryBuilder	appendClause	(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V	SQLiteQueryBuilder.java	196
+0x41251798	android/database/sqlite/SQLiteQueryBuilder	appendClauseEscapeClause	(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V	SQLiteQueryBuilder.java	203
+0x412517d0	android/database/sqlite/SQLiteQueryBuilder	appendColumns	(Ljava/lang/StringBuilder;[Ljava/lang/String;)V	SQLiteQueryBuilder.java	214
+0x41251808	android/database/sqlite/SQLiteQueryBuilder	buildQueryString	(ZLjava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	SQLiteQueryBuilder.java	168
+0x4108ae98	android/os/Binder	execTransact	(IIII)Z	Binder.java	280
+0x4108aed0	android/os/Binder	flushPendingCommands	()V	Binder.java	-2
+0x41066650	java/util/AbstractMap	<init>	()V	AbstractMap.java	45
+0x41216d88	java/util/concurrent/locks/AbstractQueuedSynchronizer	acquire	(I)V	AbstractQueuedSynchronizer.java	1040
+0x41216ea0	java/util/concurrent/locks/AbstractQueuedSynchronizer	compareAndSetState	(II)Z	AbstractQueuedSynchronizer.java	506
+0x41216f48	java/util/concurrent/locks/AbstractQueuedSynchronizer	getFirstQueuedThread	()Ljava/lang/Thread;	AbstractQueuedSynchronizer.java	1232
+0x41217028	java/util/concurrent/locks/AbstractQueuedSynchronizer	getState	()I	AbstractQueuedSynchronizer.java	482
+0x41217258	java/util/concurrent/locks/AbstractQueuedSynchronizer	release	(I)Z	AbstractQueuedSynchronizer.java	1101
+0x412172c8	java/util/concurrent/locks/AbstractQueuedSynchronizer	setState	(I)V	AbstractQueuedSynchronizer.java	491
+0x412168e8	java/util/concurrent/locks/AbstractQueuedSynchronizer	<init>	()V	AbstractQueuedSynchronizer.java	256
+0x410abb30	android/os/Debug	startMethodTracing	(Ljava/lang/String;)V	Debug.java	-1
+0x410abba0	android/os/Debug	startMethodTracing	(Ljava/lang/String;II)V	Debug.java	-1
+0x410abc48	android/os/Debug	stopMethodTracing	()V	Debug.java	370
+0x410711d0	com/ibm/icu4jni/charset/NativeConverter	closeConverter	(J)V	NativeConverter.java	-2
+0x410e32b0	android/app/ActivityThread$H	handleMessage	(Landroid/os/Message;)V	ActivityThread.java	-1
+0x41083d78	android/os/SystemClock	uptimeMillis	()J	SystemClock.java	-2
+0x4108d218	android/os/Parcel	recycle	()V	Parcel.java	259
+0x4108c1e0	android/os/Parcel	freeBuffer	()V	Parcel.java	-2
+0x4108c218	android/os/Parcel	init	(I)V	Parcel.java	-2
+0x4108c2c0	android/os/Parcel	obtain	(I)Landroid/os/Parcel;	Parcel.java	1961
+0x4106a978	java/lang/ref/Reference	get	()Ljava/lang/Object;	Reference.java	147
+0x4106a890	java/lang/ref/Reference	<init>	()V	Reference.java	83
+0x4106a7c0	java/lang/ref/WeakReference	<init>	(Ljava/lang/Object;)V	WeakReference.java	99
+0x4106a7f8	java/lang/ref/WeakReference	<init>	(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V	WeakReference.java	115
+0x41079448	org/apache/harmony/nio/internal/FileChannelImpl	implCloseChannel	()V	FileChannelImpl.java	109
+0x410719b0	com/ibm/icu4jni/regex/NativeRegEx	close	(I)V	NativeRegEx.java	-2
+0x410a92b8	android/database/sqlite/SQLiteDatabase	addSQLiteClosable	(Landroid/database/sqlite/SQLiteClosable;)V	SQLiteDatabase.java	221
+0x410a9328	android/database/sqlite/SQLiteDatabase	close	()V	SQLiteDatabase.java	682
+0x410a9718	android/database/sqlite/SQLiteDatabase	isOpen	()Z	SQLiteDatabase.java	1606
+0x410a97f8	android/database/sqlite/SQLiteDatabase	lock	()V	SQLiteDatabase.java	291
+0x410a9910	android/database/sqlite/SQLiteDatabase	native_setLocale	(Ljava/lang/String;I)V	SQLiteDatabase.java	-2
+0x410a9980	android/database/sqlite/SQLiteDatabase	onAllReferencesReleased	()V	SQLiteDatabase.java	240
+0x410a99f0	android/database/sqlite/SQLiteDatabase	query	(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;	SQLiteDatabase.java	1041
+0x410a9a60	android/database/sqlite/SQLiteDatabase	query	(ZLjava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;	SQLiteDatabase.java	964
+0x410a9a98	android/database/sqlite/SQLiteDatabase	queryWithFactory	(Landroid/database/sqlite/SQLiteDatabase$CursorFactory;ZLjava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;	SQLiteDatabase.java	1003
+0x410a9b40	android/database/sqlite/SQLiteDatabase	rawQueryWithFactory	(Landroid/database/sqlite/SQLiteDatabase$CursorFactory;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;	SQLiteDatabase.java	1109
+0x410a9b78	android/database/sqlite/SQLiteDatabase	removeSQLiteClosable	(Landroid/database/sqlite/SQLiteClosable;)V	SQLiteDatabase.java	230
+0x410a9c58	android/database/sqlite/SQLiteDatabase	setLocale	(Ljava/util/Locale;)V	SQLiteDatabase.java	1634
+0x410a9da8	android/database/sqlite/SQLiteDatabase	unlock	()V	SQLiteDatabase.java	327
+0x410a8f68	android/database/sqlite/SQLiteDatabase	<init>	(Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V	SQLiteDatabase.java	-1
+0x410a8fd8	android/database/sqlite/SQLiteDatabase	closeClosable	()V	SQLiteDatabase.java	692
+0x410a9048	android/database/sqlite/SQLiteDatabase	dbclose	()V	SQLiteDatabase.java	-2
+0x410a9080	android/database/sqlite/SQLiteDatabase	dbopen	(Ljava/lang/String;I)V	SQLiteDatabase.java	-2
+0x410a90b8	android/database/sqlite/SQLiteDatabase	findEditTable	(Ljava/lang/String;)Ljava/lang/String;	SQLiteDatabase.java	-1
+0x410a9160	android/database/sqlite/SQLiteDatabase	openDatabase	(Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)Landroid/database/sqlite/SQLiteDatabase;	SQLiteDatabase.java	635
+0x410a9208	android/database/sqlite/SQLiteDatabase	releaseMemory	()I	SQLiteDatabase.java	-2
+0x4107b260	java/util/WeakHashMap$Entry	<init>	(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V	WeakHashMap.java	-1
+0x410564d0	java/lang/Integer	intValue	()I	Integer.java	312
+0x41056298	java/lang/Integer	valueOf	(I)Ljava/lang/Integer;	Integer.java	806
+0x410c42c8	java/util/HashMap$HashMapIterator	hasNext	()Z	HashMap.java	95
+0x410c4300	java/util/HashMap$HashMapIterator	next	()Ljava/lang/Object;	HashMap.java	127
+0x410c4250	java/util/HashMap$HashMapIterator	<init>	(Ljava/util/MapEntry$Type;Ljava/util/HashMap;)V	HashMap.java	-1
+0x4120e418	java/util/HashMap$2	iterator	()Ljava/util/Iterator;	HashMap.java	762
+0x4120e368	java/util/HashMap$2	<init>	(Ljava/util/HashMap;)V	HashMap.java	761
+0x41067fb0	java/lang/String	_getChars	(II[CI)V	String.java	1006
+0x41067fe8	java/lang/String	charAt	(I)C	String.java	642
+0x41068288	java/lang/String	equals	(Ljava/lang/Object;)Z	String.java	-1
+0x41068410	java/lang/String	hashCode	()I	String.java	1013
+0x41068448	java/lang/String	indexOf	(I)I	String.java	1043
+0x41068560	java/lang/String	lastIndexOf	(I)I	String.java	1208
+0x41068640	java/lang/String	length	()I	String.java	1320
+0x410678a8	java/lang/String	<init>	(II[C)V	String.java	524
+0x410e2778	android/app/ApplicationThreadNative	onTransact	(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z	ApplicationThreadNative.java	66
+0x41079e20	java/nio/channels/spi/AbstractInterruptibleChannel	close	()V	AbstractInterruptibleChannel.java	110
+0x41079ec8	java/nio/channels/spi/AbstractInterruptibleChannel	isOpen	()Z	AbstractInterruptibleChannel.java	88
+0x410ad608	android/net/LocalSocketImpl	close	()V	LocalSocketImpl.java	223
+0x410ad6b0	android/net/LocalSocketImpl	finalize	()V	LocalSocketImpl.java	487
+0x4104b3e0	java/lang/Thread	currentThread	()Ljava/lang/Thread;	Thread.java	584
+0x4115ac88	android/os/MessageQueue	enqueueMessage	(Landroid/os/Message;J)Z	MessageQueue.java	-1
+0x4115acc0	android/os/MessageQueue	next	()Landroid/os/Message;	MessageQueue.java	92
+0x4115ad30	android/os/MessageQueue	pullNextLocked	(J)Landroid/os/Message;	MessageQueue.java	158
+0x41218758	java/util/concurrent/locks/ReentrantLock$FairSync	lock	()V	ReentrantLock.java	193
+0x41218790	java/util/concurrent/locks/ReentrantLock$FairSync	tryAcquire	(I)Z	ReentrantLock.java	-1
+0x41218718	java/util/concurrent/locks/ReentrantLock$FairSync	<init>	()V	ReentrantLock.java	191
+0x410df230	android/app/ActivityThread	collectComponentCallbacksLocked	(ZLandroid/content/res/Configuration;)Ljava/util/ArrayList;	ActivityThread.java	3305
+0x410df658	android/app/ActivityThread	handleLowMemory	()V	ActivityThread.java	3478
+0x410de8f8	android/app/ActivityThread	access$800	(Landroid/app/ActivityThread;ILjava/lang/Object;)V	ActivityThread.java	112
+0x410df0d8	android/app/ActivityThread	queueOrSendMessage	(ILjava/lang/Object;)V	ActivityThread.java	-1
+0x410df148	android/app/ActivityThread	queueOrSendMessage	(ILjava/lang/Object;II)V	ActivityThread.java	2140
+0x4105df18	java/lang/System	arraycopy	(Ljava/lang/Object;ILjava/lang/Object;II)V	System.java	-2
+0x412189e8	java/util/concurrent/locks/ReentrantLock$Sync	tryRelease	(I)Z	ReentrantLock.java	119
+0x412187e8	java/util/concurrent/locks/ReentrantLock$Sync	<init>	()V	ReentrantLock.java	87
+0x410a8390	android/database/CursorWindow	close	()V	CursorWindow.java	428
+0x410a8438	android/database/CursorWindow	finalize	()V	CursorWindow.java	436
+0x410a85c0	android/database/CursorWindow	getNumRows	()I	CursorWindow.java	69
+0x410a8630	android/database/CursorWindow	getStartPosition	()I	CursorWindow.java	52
+0x410a8668	android/database/CursorWindow	getString	(II)Ljava/lang/String;	CursorWindow.java	276
+0x410a8710	android/database/CursorWindow	onAllReferencesReleased	()V	CursorWindow.java	481
+0x410a8898	android/database/CursorWindow	setStartPosition	(I)V	CursorWindow.java	60
+0x410a7e10	android/database/CursorWindow	<init>	(Z)V	CursorWindow.java	39
+0x410a7e80	android/database/CursorWindow	close_native	()V	CursorWindow.java	-2
+0x410a7fd0	android/database/CursorWindow	getNumRows_native	()I	CursorWindow.java	-2
+0x410a8008	android/database/CursorWindow	getString_native	(II)Ljava/lang/String;	CursorWindow.java	-2
+0x410a8158	android/database/CursorWindow	native_init	(Z)V	CursorWindow.java	-2
+0x4104cfe0	java/lang/Object	equals	(Ljava/lang/Object;)Z	Object.java	117
+0x4104d018	java/lang/Object	finalize	()V	Object.java	148
+0x4104d088	java/lang/Object	hashCode	()I	Object.java	-2
+0x4104d0c0	java/lang/Object	notify	()V	Object.java	-2
+0x4104d168	java/lang/Object	wait	()V	Object.java	288
+0x4104d1d8	java/lang/Object	wait	(JI)V	Object.java	-2
+0x41251fb0	java/util/WeakHashMap$1$1	<init>	(Ljava/util/WeakHashMap$1;)V	WeakHashMap.java	342
+0x41128dc0	java/util/regex/Matcher	finalize	()V	Matcher.java	770
+0x41066f40	java/util/HashMap$Entry	<init>	(Ljava/lang/Object;I)V	HashMap.java	53
+0x4107b530	java/lang/ref/ReferenceQueue	poll	()Ljava/lang/ref/Reference;	ReferenceQueue.java	-1
+0x4107b4b8	java/lang/ref/ReferenceQueue	<init>	()V	ReferenceQueue.java	40
+*end
+SLOW   Z! |<j                 ¡»
+A9   0»
+AB   1»
+AZ   `‘
+Aù  h
+AO  @‰
+Ai  A‰
+A“  ğ!A  ‡!Af  è‡!Ar  èh!A‰  éh!A  é‡!A•  ‡!Aœ  ñ!A¥  @_AÛ  x_Aë  PfAö  QfAû  dA  dA7   `AK  !`Ah  y_Al  A_Ap  hÊ
+AË  @†Af  A†Aq  €Ë
+A‚  Ë
+Aë  iÊ
+Aı  ˆ‚AA  ‰‚AK  ĞÌA®  àÕAÂ  áÕAà  ÑÌAé  ĞAû  p×A  @†A  A†A  ˆÖA"  ßAU  ßAc  ‰ÖAi  °At  ßA|  ßA„  ±Aˆ  q×A  ‘ĞA“  ĞA	  p×A 	  @†A+	  A†A/	  ˆÖA:	  ßAe	  ßAm	  ‰ÖAt	  °A}	  ßA‚	  ßAŒ	  ±A	  q×A•	  ‘ĞAš	  `ÕA«	  àŞA³	  ¨xAÍ	  ©xAÛ	  áŞAä	  aÕAè	  Ğ A$
+  PêA6
+  8ëA=
+  påAC
+  8åAI
+  8çAW
+  ˆæA^
+  ‰æA¼
+  9çAÅ
+  9åAÌ
+  qåAĞ
+  9ëAÔ
+  QêAÙ
+  Ñ Aß
+  €
+Aı
+  
+A´D  ğ«A`E  (¬AkE  PfAtE  QfA}E  ­A˜E  	­A¹E  Ğ¬AÇE  Ñ¬A%F  ¸´AIF  ¹´AOF  )¬AUF  ñ«AYF  ÀAvF  ÁA‰F  Xœ
+AÉF  ø—
+AÑF  Ğ„!AÚF  X‡!AâF  ˆm!AêF  ‡!AïF  à³AøF  °ÖAG  ±ÖAG  á³AG  (p!A8G  )p!A=G  Ho!AIG  Io!AUG   n!A]G  A}G  A„G  ¡n!AG  ‘‡!A™G  ‰m!A G  Y‡!A£G  Ñ„!A©G  ù—
+A±G  ˜AÍG  ĞÌAêG  àÕA÷G  áÕAH  ÑÌA$H  ĞA.H  p×A4H  @†ABH  A†AIH  °A^H  ßAqH  ßA‚H  ±A†H  q×AH  ‘ĞA’H  @†AH  A†A¡H  ĞÎA°H   ×A¶H  ×AÂH  ÑÎAÅH  ĞAÊH  p×AÎH  @†AÒH  A†AÖH  °AŞH  ßAåH  ßAíH  ±AñH  q×AúH  ‘ĞAI  @†AI  A†AI  `ÕAI  àŞA"I  ¨xAEI  ©xALI  áŞATI  aÕAYI  ™A_I  ™
+AgI  ™
+AwI  ¨
+A}I   †!AI  Xr!AªI  è‰!A²I  (p!A¶I  )p!AºI  à³AÄI  °ÖAÉI  ±ÖAÎI  á³AÒI  Èr!AàI  Ér!AçI  é‰!AëI  Yr!AğI  !†!AõI  ©
+AıI  Yœ
+A J  i
+AJ  a‘
+AJ  ğ™
+A¶J  `š
+AÆJ  ˜š
+AÌJ  x$AçJ  y$AåM  %A‹N  HìAçN  IìAøN  HìAO  IìAO  ÍA4O  ÖA@O  ÖAvP  	ÍAP  ĞAQ  p×AQ  @†A/Q  A†A6Q  °AQQ  ßA`Q  ßArQ  ±A~Q  q×A‹Q  ‘ĞAQ  Ğ%A´Q  ĞAÅQ  p×AËQ  @†AÑQ  A†AÕQ  °AßQ  ßAæQ  ßAöQ  ±AüQ  q×AR  ‘ĞAR  ĞAtR  p×AyR  @†A„R  A†A‹R  °A–R  ßAR  ßA¨R  ±A±R  q×A¹R  ‘ĞA½R  ĞAÃR  p×AÇR  @†AÏR  A†AÔR  °AŞR  ßAêR  ßAòR  ±AöR  q×AşR  ‘ĞAS  ĞÎAS   ×AS  ×A S  ÑÎA#S  Ñ%A'S  ĞAˆS  p×AS  @†A™S  A†AS  °AªS  ßA²S  ßA¼S  ±AÅS  q×AÌS  ‘ĞAÑS  ĞAØS  p×AÜS  @†AäS  A†AèS  °AñS  ßAüS  ßAT  ±A
+T  q×AT  ‘ĞAT  `%A[T  HìAeT  @†AwT  A†A}T  IìA„T  ĞA‘T  p×A˜T  @†AŸT  A†A£T  °A¯T  ßA·T  ßAÆT  ±AËT  q×AÓT  ‘ĞA×T  ĞAŞT  p×AâT  @†AêT  A†AïT  °A÷T  ßAU  ßAU  ±AU  q×AU  ‘ĞAU  a%A#U  `%AYU  HìAeU  IìAmU  a%AqU  `%A¥U  HìA­U  IìA³U  a%A¸U  `%AïU  HìAúU  IìAV  a%AV  ˜%A=V  HìAEV  IìALV  ™%ASV  `ÕAZV  àŞAbV  ¨xAŒV  ©xA—V  áŞA V  aÕA¦V  	%A­V  ¸
+AÎV  HìAÙV  @†AãV  A†AçV  IìAìV  H„AòV  I„AW  H„AW  I„AW  ¹
+AW  @›
+A#W  ŒAaW  @†AlW  A†ApW  èAÇW  éAĞW  ‘ŒAØW  xAX  È¨
+ASX  8£
+A_X  @‰
+AhX  A‰
+A}X  €‰
+A‘X  ‰
+A§X  ¸’
+A­X  ø—
+A²X  Ğ„!A»X  X‡!AÃX  ˆm!AÌX  ‡!AÔX  à³AàX  °ÖAèX  ±ÖAîX  á³AóX  (p!AûX  )p!AÿX  Ho!AY  Io!AY   n!AY  A+Y  A2Y  ¡n!A7Y  ‘‡!A=Y  ‰m!ABY  Y‡!AEY  Ñ„!AKY  ù—
+AQY  °¯A\Y  x¯AeY  0µAkY  1µArY  y¯AyY  ˆĞA‚Y  ‰ĞA‰Y  `²A·Y  ø§AÛY  ¨AäY  ‘¨AêY  ù§AïY  ˆĞAşY  ‰ĞAZ  a²AZ  ±¯AZ  ¨
+A Z   †!A*Z  Xr!A3Z  è‰!A=Z  (p!AAZ  )p!AEZ  à³AMZ  °ÖARZ  ±ÖAXZ  á³A\Z  Èr!AjZ  Ér!AqZ  é‰!AuZ  Yr!AzZ  !†!AZ  ©
+A†Z  ¹’
+AZ  8¥
+A–Z  ø—
+A›Z  Ğ„!A Z  X‡!A¦Z  ˆm!A¬Z  ‡!A´Z  à³A½Z  °ÖAÅZ  ±ÖAÊZ  á³AÏZ  (p!AÕZ  )p!AÙZ  Ho!AâZ  Io!AêZ   n!AğZ  AıZ  A[  ¡n!A[  ‘‡!A[  ‰m!A[  Y‡!A[  Ñ„!A[  ù—
+A[  €‰
+A)[  ‰
+A1[  ø¦
+A7[  ù¦
+A†o  (Š
+A©o  )Š
+AËo  ¨
+A×o   †!Aáo  Xr!Aío  è‰!Aöo  (p!Aüo  )p!Ap  à³Ap  °ÖAp  ±ÖA"p  á³A'p  Èr!A6p  Ér!A:p  é‰!A=p  Yr!ADp  !†!AIp  ©
+AWp  9¥
+A_p  9£
+Adp  É¨
+Akp  @ƒAAq  xUAnq  CAŒq  (yAÀq   mAÚq  €A r  ¸A
+r  Ar   ëAr  ¡ëAr  	A!r  ĞA)r  ÑA9r  ¹A>r  ABr  mAJr  )yAPr  ÀkAir   mAsr  €Ar  ¸A…r  AŠr   ëAr  ¡ëA•r  	Aœr  ĞA¢r  ÑA«r  ¹A²r  A¶r  mA¼r  ÁkAÀr  @_Aár  x_Aêr  PfAñr  QfAõr  dA s  dA s   `A/s  !`AHs  y_ANs  A_ARs  	CAXs  yUA_s  ø—
+Ass  Ğ„!A}s  X‡!A…s  ˆm!ALt  ‡!AVt  à³A^t  °ÖAdt  ±ÖAmt  á³Axt  (p!A‚t  )p!A‰t  Ho!A™t  Io!A¥t   n!A®t  A¾t  AÄt  ¡n!AÉt  ‘‡!AÑt  ‰m!AÖt  Y‡!AÚt  Ñ„!Aát  ù—
+Aìt  Èª
+Aùt  €‰
+Au  ‰
+Au   ©
+Abu  ©
+A›u  (Š
+Aªu  )Š
+A·u  Éª
+A»u   «
+Aóu  €‰
+Aıu  ‰
+Av  8©
+Av  9©
+A“v  (Š
+A¢v  )Š
+A¯v  «
+A´v  ˆ‚AÑv  ‰‚Aìv   «
+Aûv  €‰
+Aw  ‰
+A
+w  8©
+Aw  9©
+Afw  (Š
+Arw  )Š
+A}w  «
+A‚w  ˆ‚A–w  ‰‚Aœw  ¨
+A§w   †!A±w  Xr!A¹w  è‰!A¿w  (p!AÃw  )p!AÈw  à³AÖw  °ÖAİw  ±ÖAâw  á³Açw  Èr!Aòw  Ér!A÷w  é‰!Aûw  Yr!Aÿw  !†!Ax  ©
+Ax  AƒAx  yAx  A›
+Ax  ™š
+A$x  aš
+A)x  ñ™
+A.x  ˆAx  à…AÁx  ~
+Aóx  @‰
+Aşx  A‰
+Ay  X
+A y  Y
+AÈ|  ~
+Aá|  ˜ˆ
+Aù|  ™ˆ
+A}  8«
+A}  ø—
+A}  Ğ„!A'}  X‡!A2}  ˆm!A:}  ‡!A@}  à³AK}  °ÖAS}  ±ÖAY}  á³A_}  (p!Ag}  )p!Ak}  Ho!Ay}  Io!A}   n!A‹}  AŸ}  A¥}  ¡n!A©}  ‘‡!A°}  ‰m!Aµ}  Y‡!A¹}  Ñ„!A¾}  ù—
+AÈ}  €‰
+AÛ}  ‰
+Ağ}  €‰
+Aô}  ‰
+Aù}  0†
+Aÿ}  1†
+A~  p©
+A$~  ˜®A   ÀÂAO   ÂAÌ   ÂA   ÁÂA  ÀÂA"  ÂAJ  ÂAj  ÁÂAs  x'A¦  ÈAº  øèAÙ  ØğAè  HñAî  ˆ¤Aø  ‰¤A  Ğ	AP  x‚	AY  x=A~  y=Aé  @‚	Aù  ˆ¬A  ÀĞA7  ÁĞA…  ‰¬A—  A‚	AŸ  y‚	A¤  Ñ	A¨  IñA®  ÙğA²  ùèA·  ÉAÁ  y'AÍ  ÒAë  àÁAô  áÁA0  ÒAG  ÒAP  àÁAV  áÁAk  ÒA  ™®Aˆ  ÙÑA   iÑA(   x=AW   y=A‰   0­Aœ   1­A·   Á¬AÄ   X|	Aæ   °2Añ   XöA  €AŒ  ¸A   A§   ëA¯  ¡ëAµ  	A»  ĞAÉ  ÑAÖ  ¹AÛ  AŞ  0òAë  €A  ¸A  A   ëA  ¡ëA  	A   ĞA%  ÑA,  ¹A1  A5   eAD  ¡eAL  ØeAT  hã Au   ëA~  ¡ëA  iã A†  ÙeA  ä A•  @å AÇ  Aå AÎ  PBAŞ  QBAè  ä Aë  ÈBA  ÉBA   CA)  ÈBA2  ÉBA7  €å AV  å A^  CAd  ¸A  (A™   A  A¥  ĞA·  ÑAè  )Aò  ¹A  ÈBA"  ÉBA1   eA9  ¡eA=   eAJ  ¡eAO   A[  A_  @
+Ad  A
+Au  ¸A  ¹A§  1òA®   A·  A»  @
+AÀ  A
+AÅ  (QA1  )QA8  @
+AC  A
+AI  ÈhAh  ÉhAl  ğ©Ax  ñ©A‡  ’
+Aõ  	’
+AÌb  €AA\c  AAÔc  ØµAÎd  (BAÙd  )BApe  ÈƒAåe  ÉƒAf  ‡Af  è$A©g  é$AËs XFA
+   ĞA%   ĞA-   YFA6    ¹Ab   P¸A´   Q¸Aq  ĞAƒ  ĞAˆ  ¹A   ¹AÖ  P¸Aá  Q¸A  ĞA*  ĞA0  ¹A6  xEAi  yEAu  8„
+A  €~
+Aİ  ~
+A(  9„
+A1  ÀAz  °A–  ±A=  ĞAK  ĞAP  ÁAU  (&A  ¸%A­  ¹%AÀ  )&AÆ  ÀAë  °Aü  ±A?  ĞAL  ĞAQ  ÁAU  èşA—  °A£  ±AB  ĞAQ  ĞAV  éşAZ  ÀAŠ  °A•  ±AÚ  ĞAé  ĞAí  ÁAò  èşA!  °A+  ±A  ĞA  ĞA¤  éşA©  h·AØ  €¶Aá  ¶Aí  x=Aó  y=A	  (·A&
+  )·A?
+  À§AK
+  ¨AS
+  ‘¨AX
+  Á§A_
+  i·Ai
+  ˆpA  ĞA0  ÑA  ĞA8  ĞA?  ‰pAM  °Ö
+A¡  Ö
+A¯  	Ö
+AÁ  ±Ö
+AÅ  ˆpAé  ĞAò  ÑA  ĞA!  ĞA'  ‰pA/  (dA_  ĞAi  ÑAŠ  ĞA›  ĞA¢  )dA©  °Ö
+AÖ  Ö
+AŞ  	Ö
+Aå  ±Ö
+Aè  €A  HA  ÈA5  ÉAF   AY  H”Ax  HAÑ  ÈAŞ  ÉAç  IAñ  I”Aö  !Aú  IA   A  €AB  HAL  ÈAW  ÉA^   Ae  H”Ak  HAz  ÈA„  ÉAŒ  IA“  I”A—  !A  IA¥  A©  ‡A¥z ÙµA½z YöAÆz ±2AÒz Y|	AÛz H¨Aöz ˆ¦A{ ‰¦A${ I¨A/{ À¬A7{ x=AF{ y=Ax{ 0­Aˆ{ 1­A‘{  A { A¨{ Ğ®AÀ{ Ñ®AÚ{ hÑAè{ ØÑAğ{ q©
+AW (Š
+AdW )Š
+A…W (Š
+AW )Š
+A™W ¨
+A­W  †!AÏW Xr!AäW è‰!AúW (p!AÿW )p!AW à³A%W °ÖA-W ±ÖA6W á³A<W Èr!ANW Ér!ARW é‰!AXW Yr!A^W !†!AcW ©
+AqW 9«
+A{W á…A•W ˆA¨W ĞKAlW xLAtW ˆA{W ˆA‹W ˆˆA™W 0†
+A±W 1†
+A·W 0†
+AÀW 1†
+AÆW À…
+AËW €‰
+AÑW ‰
+AÜW Ğ
+AW Ñ
+AbW (Š
+AnW )Š
+AzW Á…
+AW ‰ˆAˆW yLA³W ÑKA»W ¨‡AğW °_Aœ‘W PfA¦‘W QfA¯‘W dAÅ‘W dAã‘W  `Aù‘W !`A’W ±_A’W ˜bA=’W ™bAW’W PdAb’W `Ao’W „A{’W „A€’W ÈbA’W ÉbA›’W XbA¢’W @oAÄ’W ppAĞ’W qpAÔ’W AoAØ’W YbAë’W ‘`Añ’W QdAõ’W ˜bA“W ™bA“W PdA“W `A"“W „A)“W „A.“W ÈbA:“W ÉbAE“W XbAK“W @oAj“W ppAt“W qpAx“W AoA}“W YbA‹“W ‘`A‘“W QdA•“W `…A©“W a…A¹“W 8cA”W „A”W „A”W ÈbA”W ˆ‚A2”W ‰‚A>”W ÉbAE”W 9cAJ”W ĞdAZ”W ÑdAa”W ©‡Ae”W xWA—”W ¸UA”W €CAº”W ˆAÆ”W ˆAÍ”W CAÒ”W ¹UAİ”W ¸JAæ”W ¹JAì”W h†
+A÷”W €‰
+Aû”W ‰
+A •W €
+A$•W 	€
+A–W (Š
+A –W )Š
+A5–W i†
+A;–W yWAC–W ˆAQ–W ˆAZ–W †A–W ¸CA‹–W xmA¬–W `	A»–W a	AÁ–W ymAÉ–W ĞDAÒ–W  yAá–W Aí–W ÀA—W ÁA!—W 	A'—W  A3—W  A;—W A@—W AH—W ¡yAQ—W ÑDA\—W ¹CAc—W ¨…A—W ƒ
+A—W (Š
+A£—W ‡
+A©—W €~
+A¯—W ~
+AœW ‡
+A8œW )Š
+AHœW ‘ƒ
+ANœW ©…A[œW ª
+AlœW  ¥
+AuœW ø—
+AœW Ğ„!A»œW X‡!AÆœW ˆm!AØœW ‡!AŞœW à³AéœW °ÖAğœW ±ÖAöœW á³AıœW (p!AW )p!AW Ho!AW Io!A%W  n!A.W AAW AGW ¡n!ALW ‘‡!ARW ‰m!AWW Y‡!AZW Ñ„!AcW ù—
+ApW (Š
+AyW h§
+AˆW 0§
+AW 1§
+ADW (Š
+ASW )Š
+AaW x›
+AiW ø—
+AlW Ğ„!AsW X‡!AxW ˆm!A€W ‡!A†W à³AW °ÖA•W ±ÖA›W á³A¡W (p!A¨W )p!A¬W Èr!A·W Ér!A»W ‘‡!AÁW ‰m!AÊW Y‡!AÏW Ñ„!AÔW ù—
+AİW  °AçW x¯AíW 0µAôW 1µAúW y¯AŸW ˆĞAŸW ‰ĞAŸW x©A'ŸW y©A+ŸW àÏAAŸW áÏAFŸW !°AZŸW ¨
+AcŸW  †!AjŸW Xr!AuŸW è‰!A|ŸW (p!A€ŸW )p!AƒŸW à³AŸW °ÖA•ŸW ±ÖA™ŸW á³AŸW Èr!A§ŸW Ér!A«ŸW é‰!A¯ŸW Yr!A´ŸW !†!AºŸW ©
+AÃŸW y›
+AÈŸW i§
+AÍŸW )Š
+A×ŸW ¨
+AÜŸW  †!AàŸW Xr!AçŸW è‰!AğŸW (p!AôŸW )p!AøŸW à³A W °ÖA W ±ÖA W á³A W Èr!A W Ér!A W é‰!A! W Yr!A% W !†!A+ W ©
+A2 W ¥
+A7 W ‘ª
+A= W ĞŒAi W ÑŒAn W ‘†Ar W (“
+A} W ø—
+A‚ W Ğ„!AŠ W X‡!A W ˆm!A– W ‡!A W à³A§ W °ÖA® W ±ÖA³ W á³A¶ W (p!A½ W )p!AÁ W Ho!AÈ W Io!AÌ W  n!AÔ W Aá W Aé W ¡n!Añ W ‘‡!Aö W ‰m!Aú W Y‡!Aş W Ñ„!A¡W ù—
+A
+¡W Ø
+A&¡W `®A3¡W x¯A6¡W 0µA;¡W 1µAE¡W y¯AK¡W x$An¡W y$AÛ±W  %AZºW ¨êA1»W  ëA¼W ¡ëA
+¼W ©êAØ¼W ¡%Aİ¼W a®Aæ¼W P%A#ÁW x$A ÂW y$AÛÓW x$AØW x$ASŞW y$AóŞW y$A;ßW °%AßW ±%AßW @%AšßW A%A§ßW Q%A«ßW €%AÊßW %AàW Ù
+AàW (Š
+AàW €™
+A&àW —
+A+àW —
+A1àW H
+AMàW I
+A£.X ™
+A_0X )Š
+A71X ¨
+A2X  †!Aï2X Xr!AÃ3X è‰!AË3X (p!AĞ3X )p!A4X à³A«5X °ÖA³5X ±ÖAº5X á³A¿5X Èr!AÒ5X Ér!AÚ5X é‰!Aß5X Yr!Aå5X !†!Aë5X ©
+Aú5X )“
+A 6X H¼
+A£6X p&Añ6X 
